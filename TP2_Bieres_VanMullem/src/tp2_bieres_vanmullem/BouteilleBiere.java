@@ -16,11 +16,4 @@ public class BouteilleBiere {
     public void lireEtiquette() {
         System.out.println("Bouteille de " + nom +" (" + degreAlcool + " degres) \nBrasserie : " + brasserie ); 
     }
-    BouteilleBiere uneBiere = new BouteilleBiere() ;{
-    uneBiere.nom = "Cuvée des trolls";
-    uneBiere.degreAlcool = 7.0 ;
-    uneBiere.brasserie = "Dubuisson";
-    uneBiere.ouverte = false;
-    uneBiere.lireEtiquette();
-    }
 }
