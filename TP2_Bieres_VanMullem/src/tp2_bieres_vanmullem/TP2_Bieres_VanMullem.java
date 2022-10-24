@@ -21,12 +21,12 @@ public class TP2_Bieres_VanMullem {
     uneBiere.ouverte = false;
     uneBiere.lireEtiquette();
     }
-    BouteilleBiere secondeBiere = new BouteilleBiere() ;{
-    secondeBiere.nom = "Leffe";
-    secondeBiere.degreAlcool = 6.6 ;
-    secondeBiere.brasserie = "Abbaye de Leffe";
-    secondeBiere.ouverte = false;
-    secondeBiere.lireEtiquette();
+    BouteilleBiere autreBiere = new BouteilleBiere() ;{
+    autreBiere.nom = "Leffe";
+    autreBiere.degreAlcool = 6.6 ;
+    autreBiere.brasserie = "Abbaye de Leffe";
+    autreBiere.ouverte = false;
+    autreBiere.lireEtiquette();
     }
 }
 }
