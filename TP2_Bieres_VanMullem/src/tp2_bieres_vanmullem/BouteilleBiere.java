@@ -9,7 +9,18 @@ package tp2_bieres_vanmullem;
  * @author Soso
  */
 public class BouteilleBiere {
-    public String Nom;
-    
-    
+    public String nom;
+    public Double degreAlcool;
+    public String brasserie;
+    public boolean ouverte;    
+    public void lireEtiquette() {
+        System.out.println("Bouteille de " + nom +" (" + degreAlcool + " degres) \nBrasserie : " + brasserie ); 
+    }
+    BouteilleBiere uneBiere = new BouteilleBiere() ;{
+    uneBiere.nom = "Cuvée des trolls";
+    uneBiere.degreAlcool = 7.0 ;
+    uneBiere.brasserie = "Dubuisson";
+    uneBiere.ouverte = false;
+    uneBiere.lireEtiquette();
+    }
 }
