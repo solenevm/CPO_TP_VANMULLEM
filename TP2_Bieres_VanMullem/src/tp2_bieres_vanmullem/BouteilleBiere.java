@@ -10,17 +10,21 @@ package tp2_bieres_vanmullem;
  */
 public class BouteilleBiere {
     public String nom;
-    public float degreAlcool;
+    public double degreAlcool;
     public String brasserie;
-    public boolean ouverte;    
+    public boolean ouverte; 
+    public boolean decapsuler;
     public void lireEtiquette() {
         System.out.println("Bouteille de " + nom +" (" + degreAlcool + " degres) \nBrasserie : " + brasserie ); 
     }
-    public BouteilleBiere(String unNom, float unDegre, String uneBrasserie) {
+    public BouteilleBiere(String unNom, double unDegre, String uneBrasserie) {
     nom = unNom;
     degreAlcool = unDegre;
     brasserie = uneBrasserie;
     ouverte = false;
+    decapsuler = (ouverte=true);
+        
+    }
 }
 
 }
