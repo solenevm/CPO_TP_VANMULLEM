@@ -15,21 +15,12 @@ public class TP2_Bieres_VanMullem {
      */
     public static void main(String[] args) {
     BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls", 7.0 ,"Dubuisson") ;
-    //uneBiere.nom = "Cuvée des trolls";
-    //uneBiere.degreAlcool = 7.0 ;
-    //uneBiere.brasserie = "Dubuisson";
-    //uneBiere.ouverte = false;
-    //uneBiere.lireEtiquette();
     
+    // création obj autreBiere dans la classe BouteilleBiere + attribution
+    // d'un nom, degré et brasserie
     BouteilleBiere autreBiere = new BouteilleBiere("Leffe", 6.6 ,"Abbaye de Leffe") ;
-    //BouteilleBiere autreBiere = new BouteilleBiere() ;{
-    //autreBiere.nom = "Leffe";
-    //autreBiere.degreAlcool = 6.6 ;
-    //autreBiere.brasserie = "Abbaye de Leffe";
-    //autreBiere.ouverte = false;
-    //autreBiere.lireEtiquette();
-    //autreBiere.lireEtiquette();
-    
+
+    // meme principe que pour la bière précédente
     BouteilleBiere Biere1 = new BouteilleBiere("Corona", 4.5 ,"Brasserie") ;
     BouteilleBiere Biere2 = new BouteilleBiere("Heineken", 5.0 ,"Bar") ;
     BouteilleBiere Biere3 = new BouteilleBiere("Chouffe", 8.0 ,"Le Babar") ;
