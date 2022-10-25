@@ -19,7 +19,7 @@ public class TP2_Bieres_VanMullem {
     //uneBiere.degreAlcool = 7.0 ;
     //uneBiere.brasserie = "Dubuisson";
     //uneBiere.ouverte = false;
-    uneBiere.lireEtiquette();
+    //uneBiere.lireEtiquette();
     
     BouteilleBiere autreBiere = new BouteilleBiere("Leffe", 6.6 ,"Abbaye de Leffe") ;
     //BouteilleBiere autreBiere = new BouteilleBiere() ;{
@@ -28,13 +28,17 @@ public class TP2_Bieres_VanMullem {
     //autreBiere.brasserie = "Abbaye de Leffe";
     //autreBiere.ouverte = false;
     //autreBiere.lireEtiquette();
-    autreBiere.lireEtiquette();
+    //autreBiere.lireEtiquette();
     
     BouteilleBiere Biere1 = new BouteilleBiere("Corona", 4.5 ,"Brasserie") ;
-    Biere1.lireEtiquette();
     BouteilleBiere Biere2 = new BouteilleBiere("Heineken", 5.0 ,"Bar") ;
-    Biere2.lireEtiquette();
     BouteilleBiere Biere3 = new BouteilleBiere("Chouffe", 8.0 ,"Le Babar") ;
-    Biere3.lireEtiquette();
+    
+    uneBiere.Décapsuler();
+    System.out.println(uneBiere);
+    System.out.println(autreBiere);
+    System.out.println(Biere1);
+    System.out.println(Biere2);
+    System.out.println(Biere3);
 }    
 }
