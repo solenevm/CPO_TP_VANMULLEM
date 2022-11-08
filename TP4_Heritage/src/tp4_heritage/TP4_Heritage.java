@@ -4,6 +4,8 @@
  */
 package tp4_heritage;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Soso
@@ -14,6 +16,11 @@ public class TP4_Heritage {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        String arme;
+        int NivAtt = 0;
+        
+        
+        
         
 // TODO code application logic here
     }

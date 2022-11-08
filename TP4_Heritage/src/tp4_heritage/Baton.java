@@ -8,15 +8,11 @@ package tp4_heritage;
  *
  * @author Soso
  */
-public class Arme {
+public class Baton extends Arme {
+    int age;
     
-    String arme;
-    int niveau;
-    
-    public Arme(String lenom, int leniveau){ //constructeur 1
-        arme = lenom;
-        niveau = leniveau;
+    public Baton(String lenom, int leniveau, int a){
+        super(lenom, leniveau);
+        age = a;
     }
-    
-    
 }
