@@ -8,6 +8,15 @@ package tp3_heritage;
  *
  * @author Soso
  */
-public class Baton {
+public class Baton extends Arme {
+    int age;
     
+    public Baton(String lenom, int leniveau, int a){
+        super(lenom, leniveau);
+        if (age<100){
+            age = a;
+        }else{
+            age = 0;
+        }
+    }
 }

@@ -8,6 +8,15 @@ package tp3_heritage;
  *
  * @author Soso
  */
-public class Epee {
+public class Epee extends Arme {
+    int finesse;
     
+    public Epee (String lenom, int leniveau, int f){
+        super(lenom, leniveau);
+        if (finesse<100){
+            finesse = f;
+        }else{
+            finesse = 0;
+        }
+    }
 }
