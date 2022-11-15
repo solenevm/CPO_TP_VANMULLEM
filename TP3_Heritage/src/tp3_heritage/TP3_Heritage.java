@@ -36,15 +36,17 @@ public class TP3_Heritage {
         System.out.println(Charme);
         
         ArrayList<Arme> Tab = new ArrayList<Arme>();
-        Tab.add(Durandal);
         Tab.add(Excalibur);
+        Tab.add(Durandal);
         Tab.add(Chene);
         Tab.add(Charme);
         
-        System.out.println(Tab); // affichage tableau
-
-
-     
-    }
-    
+        System.out.print("[ " + Tab.get(0));
+        
+        for (int i=1 ; i<Tab.size() ; i++){
+        System.out.print(", " + Tab.get(i));// affichage tableau  
+        }
+        
+        System.out.print(" ]");
+}
 }
