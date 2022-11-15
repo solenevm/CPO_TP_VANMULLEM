@@ -21,4 +21,10 @@ public class Baton extends Arme {
             age = 0;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Baton{" + "Nom arme : "+ arme + ", Niveau arme : " + niveau + ", age : " + age + "}";
+    }
+    
 }

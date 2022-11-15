@@ -21,4 +21,11 @@ public class Epee extends Arme {
             finesse = 0;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Epee{" + "Nom arme : "+ arme + ", Niveau arme : " + niveau + ", Finesse : " + finesse + "}";
+    }
+    
+    
 }
