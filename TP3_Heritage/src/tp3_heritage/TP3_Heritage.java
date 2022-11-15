@@ -4,6 +4,11 @@
  */
 package tp3_heritage;
 
+import Armes.Epee;
+import Armes.Baton;
+import Armes.Arme;
+import java.util.ArrayList;
+
 /**
  *
  * @author Soso
@@ -17,11 +22,9 @@ public class TP3_Heritage {
         String arme;
         int NivAtt = 0;
         
-        Arme couteau = new Arme ("couteau", 40 );
-        System.out.println(couteau);
         
-        Epee excalibur = new Epee ("Excalibur", 7, 5);
-        System.out.println(excalibur);
+        Epee Excalibur = new Epee ("Excalibur", 7, 5);
+        System.out.println(Excalibur);
         
         Epee Durandal = new Epee ("Durandal", 4, 7);
         System.out.println(Durandal);
@@ -31,8 +34,17 @@ public class TP3_Heritage {
         
         Baton Charme = new Baton ("Charme", 5, 6);
         System.out.println(Charme);
+        
+        ArrayList<Arme> Tab = new ArrayList<Arme>();
+        Tab.add(Durandal);
+        Tab.add(Excalibur);
+        Tab.add(Chene);
+        Tab.add(Charme);
+        
+        System.out.println(Tab); // affichage tableau
 
-        // TODO code application logic here
+
+     
     }
     
 }

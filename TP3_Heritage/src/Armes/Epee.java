@@ -2,21 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tp3_heritage;
+package Armes;
+
+import Armes.Arme;
 
 /**
  *
  * @author Soso
  */
-public class Baton extends Arme {
-    int age;
+public class Epee extends Arme {
+    int finesse;
     
-    public Baton(String lenom, int leniveau, int a){
+    public Epee (String lenom, int leniveau, int f){
         super(lenom, leniveau);
-        if (age<100){
-            age = a;
+        if (finesse<100){
+            finesse = f;
         }else{
-            age = 0;
+            finesse = 0;
         }
     }
 }
